@@ -1,0 +1,52 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: fonts/Rubik-Light.ttf
+          weight: 300
+        - asset: fonts/Rubik-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/Rubik-Black.ttf
+          weight: 900
+        - asset: fonts/Rubik-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: fonts/Rubik-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/Rubik-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: fonts/Rubik-MediumItalic.ttf
+          weight: 500
+          style: italic
+
+
+
